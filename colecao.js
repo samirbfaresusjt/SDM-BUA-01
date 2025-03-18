@@ -21,8 +21,4 @@ map.forEach((valor, chave)=>{
 
 //Remover todos os elementos do map
 map.clear()
-<<<<<<< HEAD
 console.log(map.size)
-=======
-console.log(map.size)
->>>>>>> d557431e05be311ef0d624d7ac3c9a4f22e79470
