@@ -13,7 +13,6 @@ let inteiro = parseInt ("10.5")
 let str = String (100)
 let outraStr = (42).toString
 
-
 console.log(idade)
 console.log(nome)
 console.log(ativo)
