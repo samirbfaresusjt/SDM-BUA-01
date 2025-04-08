@@ -14,8 +14,16 @@ app.post("/usuarios", (req, res) => {
     res.send({message: "Usuario cadastrado com sucesso", usuario})
 })
 
+// Rota para criar pedidos
+
+app.post("/pedidos", (req,res) =>{
+    const pedido = req.body;
+    pedidos.push(pedido)
+    res.send({message: "Pedido criado com sucesso", pedido})
+})
+
 app.get("/dados", (req, res) =>{
-    res.send({usuarios})
+    res.send({usuarios,pedidos})
 })
 
 app.listen(3000, () => console.log("Servidor monolitico ok, na porta 3000"))
